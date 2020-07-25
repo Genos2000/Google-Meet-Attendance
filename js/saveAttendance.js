@@ -1,3 +1,5 @@
+console.log('test')
+
 var saveData = (function () {
     var a = document.createElement("a");
     document.body.appendChild(a);

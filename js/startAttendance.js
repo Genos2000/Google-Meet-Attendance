@@ -14,6 +14,11 @@ if(ran == null){
 		attendees = JSON.parse(ls.getItem(code + "_json"));
 	}
 
+
+	// document.querySelector(".save-attendance").addEventListener('click' ,(tab) => {
+	// 	chrome.tabs.executeScript(tab.id, { file: "js/saveAttendance.js" });
+	// });
+  
 	var checkExist = setInterval(function() {
 	   if (document.querySelector('#lcsclient') != null) {
 			clearInterval(checkExist);
